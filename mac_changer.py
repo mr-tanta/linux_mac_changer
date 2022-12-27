@@ -1,13 +1,13 @@
 import re
 import subprocess
-import optparse
+import argparse
 
 
 def get_argument():
-    parser = optparse.OptionParser()
-    parser.add_option("-i", "--interface", dest="interface", help="Interface to change it's MAC address.")
-    parser.add_option("-m", "--mac", dest="new_mac", help="New MAC address.")
-    (options, arguments) = parser.parse_args()
+    parser = optparse.ArgumentParser()
+    parser.add_argument("-i", "--interface", dest="interface", help="Interface to change it's MAC address.")
+    parser.add_argument("-m", "--mac", dest="new_mac", help="New MAC address.")
+    options = parser.parse_args()
     if not options.interface:
         parser.error("[-] Please specify an interface, use --help for more information")
     elif not options.new_mac:
