@@ -2,7 +2,7 @@
 
 Custom MAC address Changer, with complete control on the list of mac addresses.
 
-![Screenshot 2022-12-27 at 8.44.03 AM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F_w%2Fmfz41pwd3xd0g8n44_k0zn080000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_jRIigT%2FScreenshot%202022-12-27%20at%208.44.03%20AM.png?raw=true)
+![](macchanger.png?raw=true)
 
 # Installation
 
